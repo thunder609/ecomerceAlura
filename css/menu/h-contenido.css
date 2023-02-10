@@ -1,0 +1,12 @@
+.h-contenido{
+    
+    display: flex;
+    justify-content:flex-start;
+   gap: 200px;
+    flex:1;
+    /* vertical-align: middle; */
+    block-size: 80;
+
+    padding-inline-start: 14px;
+    padding-inline-end: 14px;
+}

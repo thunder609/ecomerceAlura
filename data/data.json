@@ -1,0 +1,107 @@
+{
+    
+    "articulos":[{
+         "id":1,
+         "categorie":"manga",
+         "name":"Lentes",
+         "descrip":"lentes",
+        "image":"imagen/lentes natacion.jpg",
+        "precio":4000
+     },
+     {
+        "id":2,
+        "categorie":"manga",
+        "name":"ligas",
+        "descrip":"lodjdjdjjdjdjdjdjjdcnjdjdjdjdjjdjdjdjd",
+       "image":"imagen/",
+       "precio":14000
+ 
+        
+    }  ,  
+    {
+       "id":3,
+       "categorie":"manga",
+       "name":"Balon de futbol",
+       "descrip":"balon de futbol con aire de hidrogeno",
+      "image":"imagen/consola4.png",
+      "precio":24000
+ 
+       
+   } , 
+   {
+      "id":4,
+      "categorie":"consola",
+      "name":"Raqueta ",
+      "descrip":"           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fugiat porro libero id enim ipsum! Reiciendis, veniam perspiciatis! Odio ut laborum vero veniam id magni perspiciatis eligendi doloremque ea repudiandae?",
+     "image":"imagen/consola6.png",
+     "precio":10000
+   },
+     {
+      "id":5,
+      "categorie":"consola",
+      "name":"Zapatos deportivos",
+      "descrip":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fugiat porro libero id enim ipsum! Reiciendis, veniam perspiciatis! Odio ut laborum vero veniam id magni perspiciatis eligendi doloremque ea repudiandae?",
+     "image":"imagen/consola3.png",
+     "precio":4000
+     },
+    
+ {
+   "id":7,
+   "categorie":"manga",
+   "name":"Vaquero",
+   "descrip":"En Busca de las 7 Eferas del Gragon",
+  "image":"imagen/j1.jpeg",
+  "precio":44000
+   
+},
+{
+  "id":8,
+  "categorie":"consola",
+  "name":"Buzz Lightyear",
+  "descrip":"El gran torneo de las artes marciales",
+ "image":"imagen/consola5.png",
+ "precio":50000
+
+  
+}  ,  
+{
+ "id":9,
+ "categorie":"consola",
+ "name":"Traform optium",
+ "descrip":"La Torre Eiffel3​ (Tour Eiffel, en francés), inicialmente llamada Tour de 300 mètres (Torre de 300 metros) es una estructura de hierro pudelado diseñada inicialmente por los ingenieros civiles Maurice Koechlin y Émile Nouguier y construida, tras el rediseño estético de Stephen Sauvestre, por el ingeniero civil francés Alexandre Gustave Eiffel y sus colaboradores para la Exposición Universal de 1889 en París",
+"image":"imagen/consola4.png",
+"precio":30000
+
+ 
+} , 
+{
+"id":10,
+"idc":10,
+"categorie":"consola",
+"name":"GokuSa Super Saiyajin Azul",
+"descrip":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fugiat porro libero id enim ipsum! Reiciendis, veniam perspiciatis! Odio ut laborum vero veniam id magni perspiciatis eligendi doloremque ea repudiandae?",
+"image":"imagen/consola2.png",
+"precio":34000
+},
+{
+"id":11,
+"categorie":"consola",
+"name":"Traform Turbo",
+"descrip":" Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fugiat porro libero id enim ipsum! Reiciendis, veniam perspiciatis! Odio ut laborum vero veniam id magni perspiciatis eligendi doloremque ea repudiandae?",
+"image":"imagen/consola1.png",
+"precio":45000
+},
+{
+"id":12,
+"categorie":"consola",
+"name":"Bumblebeee",
+"descrip":"El ejercito de la patrulla roja Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fugiat porro libero id enim ipsum! Reiciendis, veniam perspiciatis! Odio ut laborum vero veniam id magni perspiciatis eligendi doloremque ea repudiandae?",
+"image":"imagen/consola6",
+"precio":43000
+
+
+}   
+    
+]
+ 
+}

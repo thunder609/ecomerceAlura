@@ -1,0 +1,64 @@
+.banner-titulo {
+    color:var( --preto-05);
+    font-family: Pacifico , cursive;
+      position: absolute;
+   left: 50%;
+    text-align:center;
+    font-size:  var(--font-size-base);
+    top: 50%;
+    text-shadow: 0.4px rgba(0,0,0,0.75);
+    width: 100%;
+     transform: translate(-50%,-50%); 
+}
+.banner-subtitulo {
+  color:var( --preto-05);
+  font-family: Pacifico , cursive;
+    position: absolute;
+  left: 32%;
+  text-align:center;
+  font-size:  var(--font-size-base);
+  top: 65%;
+  text-shadow: 0.4px rgba(0,0,0,0.75);
+  width: 100%;
+   transform: translate(-50%,-50%); 
+}
+.button2{
+  background-color: var( --azul-100);
+  color:var( --azul-100);
+  font-family: Pacifico , cursive;
+    position: absolute;
+ left: 30%;
+  text-align:center;
+  font-size:  var(--font-size-base);
+  top: 80%;
+  text-shadow: 0.4px rgba(0,0,0,0.75);
+  width: 20%;
+   transform: translate(-50%,-50%); 
+   background:var( --azul-100);;
+   color:var(--preto-05);
+    font:var(--preto-05);
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    padding-block-start: 13px;
+    padding-block-end: 13px ;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    border-color: var(--azul-100);
+}
+@media screen  and  (min-width:0){
+   .banner-titulo{
+    font-size: 3rem;
+
+   } 
+    
+}
+@media screen  and  (min-width:768px){
+    .banner-titulo{
+     font-size: 5.0625rem;
+ 
+    } 
+     
+ }
