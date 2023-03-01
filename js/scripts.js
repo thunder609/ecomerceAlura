@@ -5,10 +5,12 @@ import { pintarProduct } from "../module/pintarProduct.js";
 let boton1 = document.querySelector("itemb");
 let frutaCon = document.getElementById('contenedorFrutas');
 let lecheCon = document.getElementById('contenedorLeche');
+let starCon=document.getElementById('contenedorStar')
 let frutas = document.getElementById('manga');
 let leche = document.getElementById('consola');
-let todito = document.getElementById('todo');
-const modal1 = document.getElementById("modal1");
+// let todito = document.getElementById('todo');
+let startw=document.getElementById('start');
+const modal1 = document.getElementById("modal1");  
 // console.log(boton1)
 let template = document.getElementById("template-card").content;
 let fragment = document.createDocumentFragment();
@@ -60,39 +62,53 @@ document.addEventListener("DOMContentLoaded", async () => {
 const filterData = (data) => {
     let paletasLeche = data.filter(item => item.categorie === "consola");
     let paletasFrutas = data.filter(item => item.categorie === "manga");
+    let startWars=      data.filter(item => item.categorie  === "starwars")
 
+     console.log("hola"+startWars)
 
+      console.log("hola1"+paletasFrutas )
 
-   pintarProduct(paletasFrutas, frutaCon)
+     console.log("hola2"+paletasLeche)
+
+    pintarProduct(paletasFrutas, frutaCon)
     pintarProduct(paletasLeche, lecheCon)
+    pintarProduct(startWars, starCon)
 
 }
 categorias.addEventListener('change', (e) => {
     let prueba = e.target.value;
     console.log("hola")
     console.log(prueba), prueba
+ 
     if (prueba === '2') {
-        frutas.style.display = 'block'
+        startw.style.display = 'none'
+         frutas.style.display = 'block'
         leche.style.display = 'none'
     
        
     } else if (prueba === '3') {
-        frutas.style.display = 'none'
+        startw.style.display = 'none'
+         frutas.style.display = 'none'
         leche.style.display = 'block'
       
+    }
+        else if (prueba === '4') {
+          startw.style.display = 'block'
+           frutas.style.display = 'none'
+          leche.style.display = 'none'
+      
+         
+    //   } else if (prueba === '5') {
+    // //     frutas.style.display = 'none'
+    // //     leche.style.display = 'none'
        
-    // } else if (prueba === '4') {
-    //     fruta.style.display = 'none'
-    //     leche.style.display = 'none'
-       
-    // } else if (prueba === '5') {
-    //     frutas.style.display = 'none'
-    //     leche.style.display = 'none'
-       
-    } else {
-        frutas.style.display = 'block'
+    // }
+        }
+    else {
+         frutas.style.display = 'block'
         leche.style.display = 'block'
-        todito.style.display = 'none'
+        startw.style.display = 'block'
+        // todito.style.display = 'none'
        
        
     }
@@ -145,9 +161,9 @@ buscador.addEventListener("keyup", async (e) => {
    resBuscador = data.filter((item) => er.test(item.name));
     console.log(resBuscador) 
     pintarProduct(resBuscador,todito);
-    todito.style.display="block"
-    frutas.style.display = 'none'
-    leche.style.display = 'none'
+    // todito.style.display="block"
+    // frutas.style.display = 'none'
+    // leche.style.display = 'none'
 
     
   

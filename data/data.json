@@ -76,7 +76,6 @@
 } , 
 {
 "id":10,
-"idc":10,
 "categorie":"consola",
 "name":"GokuSa Super Saiyajin Azul",
 "descrip":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fugiat porro libero id enim ipsum! Reiciendis, veniam perspiciatis! Odio ut laborum vero veniam id magni perspiciatis eligendi doloremque ea repudiandae?",
@@ -100,8 +99,33 @@
 "precio":43000
 
 
-}   
-    
+},
+{
+   "id":20,
+   "categorie":"starwars",
+   "name":"produc1",
+   "descrip":"El ejercito de la patrulla roja Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fugiat porro libero id enim ipsum! Reiciendis, veniam perspiciatis! Odio ut laborum vero veniam id magni perspiciatis eligendi doloremque ea repudiandae?",
+   "image":"imagen/starwar1.png",
+   "precio":43000  
+}  , 
+{
+   "id":21,
+   "categorie":"starwars",
+   "name":"produc2",
+   "descrip":"El ejercito de la patrulla roja Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fugiat porro libero id enim ipsum! Reiciendis, veniam perspiciatis! Odio ut laborum vero veniam id magni perspiciatis eligendi doloremque ea repudiandae?",
+   "image":"imagen/starwar2.png",
+   "precio":43000  
+}  ,
+{
+   "id":23,
+   "categorie":"starwars",
+   "name":"ligas",
+   "descrip":"lodjdjdjjdjdjdjdjjdcnjdjdjdjdjjdjdjdjd",
+  "image":"imagen/starwar2.png",
+  "precio":14000
+
+   
+}    
 ]
  
 }

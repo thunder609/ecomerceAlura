@@ -1,7 +1,7 @@
     .productoContainer{
         display: flex;
         flex-wrap: wrap;
-        background-color: rgb(236, 18, 18);
+        background-color: #F5F5F5;
         box-sizing: border-box;
         border:#dc0f0f;
         margin-left: 50px;
@@ -36,7 +36,7 @@
   
     .productoContainer > .producto {
         background-color: #f1f1f1;
-        width: 150px;
+        width: 130px;
         margin: 20px 30px 20px 20px;
         text-align: center;
         line-height: 15px;
