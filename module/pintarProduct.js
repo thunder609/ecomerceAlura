@@ -1,6 +1,11 @@
-export const pintarProduct = ( data, template, cont ) => {
+let frutaCon = document.getElementById('contenedorFrutas');
+const template = document.getElementById('template-card').content;
+let lecheCon = document.getElementById('contenedorLeche');
+let fruta = document.getElementById('fruta');
+let consola = document.getElementById('consola');
+export const pintarProduct = ( data,  contenedor) => {
 
-    cont.innerHTML = "";
+      contenedor.innerHTML = "";
 
     let fragment = document.createDocumentFragment()
 
@@ -17,6 +22,6 @@ export const pintarProduct = ( data, template, cont ) => {
         fragment.appendChild( clone )
     } );
 
-    cont.appendChild( fragment );
+    contenedor.appendChild( fragment );
 
 }

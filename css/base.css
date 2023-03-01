@@ -1,12 +1,14 @@
-@import url(/css/cabecera/cabecera.css);
-@import url(/css/reset.css);
-@import url(/css/menu/button.css);
-@import url(/css/menu/h-contenido.css);
-@import url(/css/menu/menu.css);
-@import url(/css/barnner/banner-imagen.css);
+@import url(/css/cabecera/headerPrincipal.css);
+ @import url(/css/reset.css);
+@import url(/css/menu/button.css); 
+@import url(/css/menu/h-contenido.css); 
+@import url(/css/menu/menu.css); 
+ @import url(/css/barnner/banner-imagen.css);
 @import url(/css/barnner/banner.css);
 @import url(/css/barnner/banner-titulo.css);
 @import url(/css/productos/productosContainer.css);
+@import url(/css/menu/item-menu.css);
+@import url(/css/main/main.css); 
 :root {
     /* fonts */
     --font-raleway: Raleway;

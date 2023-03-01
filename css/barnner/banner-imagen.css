@@ -2,20 +2,24 @@
 
 
    .banner-imagen{
-    background: url("../../images/Hero.jpg") no-repeat center / cover;
+    background: url("../../imagen/Hero.jpg")no-repeat center / cover;
     height: calc(100vh - 72px);
+    height: 350px;
     width: 100%;
   }
 @media screen  and (min-width: 0) {
 
     .banne-imagen{
        height: calc(100vh - 51px);
+       height: 100px;
+
     }
 }
 @media screen  and (min-width: 768px) {
 
     .banne-imagen{
        height: calc(100vh - 72px);
+       height: 200px;
     }
 }
    
