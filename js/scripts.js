@@ -6,9 +6,12 @@ let boton1 = document.querySelector("itemb");
 let frutaCon = document.getElementById('contenedorFrutas');
 let lecheCon = document.getElementById('contenedorLeche');
 let starCon=document.getElementById('contenedorStar')
+let conBus=document.getElementById('contenedorBusqueda')
+contenedorBusqueda
+
 let frutas = document.getElementById('manga');
 let leche = document.getElementById('consola');
-// let todito = document.getElementById('todo');
+ let todito = document.getElementById('todo');
 let startw=document.getElementById('start');
 const modal1 = document.getElementById("modal1");  
 // console.log(boton1)
@@ -79,24 +82,32 @@ categorias.addEventListener('change', (e) => {
     let prueba = e.target.value;
     console.log("hola")
     console.log(prueba), prueba
- 
-    if (prueba === '2') {
+    if (prueba === '0') {
+        todito.style.display  ="none"
+        startw.style.display = 'block'
+        frutas.style.display = 'bock'
+        leche.style.display = 'block'
+    
+       
+    }
+    else if (prueba === '2') {
         startw.style.display = 'none'
          frutas.style.display = 'block'
         leche.style.display = 'none'
+        todo.style.display = 'none'
     
        
     } else if (prueba === '3') {
         startw.style.display = 'none'
          frutas.style.display = 'none'
         leche.style.display = 'block'
-      
+        todo.style.display = 'none'
     }
         else if (prueba === '4') {
-          startw.style.display = 'block'
+            startw.style.display = 'block'
            frutas.style.display = 'none'
           leche.style.display = 'none'
-      
+          todo.style.display = 'none'
          
     //   } else if (prueba === '5') {
     // //     frutas.style.display = 'none'
@@ -104,14 +115,14 @@ categorias.addEventListener('change', (e) => {
        
     // }
         }
-    else {
-         frutas.style.display = 'block'
-        leche.style.display = 'block'
-        startw.style.display = 'block'
-        // todito.style.display = 'none'
+    // // else {
+    //      frutas.style.display = 'block'
+    //     leche.style.display = 'block'
+    //     startw.style.display = 'block'
+    //     // todito.style.display = 'none'
        
        
-    }
+    // // }
 })
 
 // categorias.addEventListener("change", (e) => {
@@ -160,10 +171,12 @@ buscador.addEventListener("keyup", async (e) => {
   // console.log("errr" + er);
    resBuscador = data.filter((item) => er.test(item.name));
     console.log(resBuscador) 
-    pintarProduct(resBuscador,todito);
-    // todito.style.display="block"
-    // frutas.style.display = 'none'
-    // leche.style.display = 'none'
+    pintarProduct(resBuscador,conBus);
+     todito.style.display  ="block"
+     startw.style.display = 'none'
+     frutas.style.display = 'none'
+     leche.style.display = 'none'
+
 
     
   

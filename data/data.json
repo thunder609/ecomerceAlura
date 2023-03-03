@@ -5,7 +5,7 @@
          "categorie":"manga",
          "name":"Lentes",
          "descrip":"lentes",
-        "image":"imagen/lentes natacion.jpg",
+        "image":"imagen/manga1",
         "precio":4000
      },
      {
@@ -13,7 +13,7 @@
         "categorie":"manga",
         "name":"ligas",
         "descrip":"lodjdjdjjdjdjdjdjjdcnjdjdjdjdjjdjdjdjd",
-       "image":"imagen/",
+       "image":"imagen/manga2",
        "precio":14000
  
         
@@ -152,6 +152,16 @@
    "name":"ligas",
    "descrip":"lodjdjdjjdjdjdjdjjdcnjdjdjdjdjjdjdjdjd",
   "image":"imagen/starwar5.png",
+  "precio":14000
+
+   
+},
+{
+   "id":26,
+   "categorie":"starwars",
+   "name":"ligas",
+   "descrip":"lodjdjdjjdjdjdjdjjdcnjdjdjdjdjjdjdjdjd",
+  "image":"imagen/starwar6.png",
   "precio":14000
 
    
