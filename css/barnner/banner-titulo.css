@@ -5,7 +5,7 @@
    left: 50%;
     text-align:center;
     font-size:  var(--font-size-base);
-    top: 50%;
+    top: 65%;
     text-shadow: 0.4px rgba(0,0,0,0.75);
     width: 100%;
      transform: translate(-50%,-50%); 
@@ -30,11 +30,11 @@
  left: 30%;
   text-align:center;
   font-size:  var(--font-size-base);
-  top: 80%;
+  top: 50%;
   text-shadow: 0.4px rgba(0,0,0,0.75);
   width: 20%;
-   transform: translate(-50%,-50%); 
-   background:var( --azul-100);;
+   transform: translate(-50%,-70%); 
+   background:var(--preto-05);
    color:var(--preto-05);
     font:var(--preto-05);
     padding-inline-start: 24px;

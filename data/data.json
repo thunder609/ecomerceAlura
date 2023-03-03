@@ -125,7 +125,47 @@
   "precio":14000
 
    
-}    
+}  ,
+{
+   "id":24,
+   "categorie":"starwars",
+   "name":"ligas",
+   "descrip":"lodjdjdjjdjdjdjdjjdcnjdjdjdjdjjdjdjdjd",
+  "image":"imagen/starwar3.png",
+  "precio":14000
+
+   
+}  ,
+{
+   "id":24,
+   "categorie":"starwars",
+   "name":"ligas",
+   "descrip":"lodjdjdjjdjdjdjdjjdcnjdjdjdjdjjdjdjdjd",
+  "image":"imagen/starwar4.png",
+  "precio":14000
+
+   
+},
+{
+   "id":25,
+   "categorie":"starwars",
+   "name":"ligas",
+   "descrip":"lodjdjdjjdjdjdjdjjdcnjdjdjdjdjjdjdjdjd",
+  "image":"imagen/starwar5.png",
+  "precio":14000
+
+   
+},
+{
+   "id":26,
+   "categorie":"starwars",
+   "name":"ligas",
+   "descrip":"lodjdjdjjdjdjdjdjjdcnjdjdjdjdjjdjdjdjd",
+  "image":"imagen/starwar6.png",
+  "precio":14000
+
+   
+}
 ]
  
 }
