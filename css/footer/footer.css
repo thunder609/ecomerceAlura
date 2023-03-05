@@ -12,7 +12,7 @@ height: 300px;
 /* Azul/10% */
 
 
-background: #085dd4;
+background: #EAF2FD;
 
 /* Inside auto layout */
 
@@ -66,9 +66,11 @@ width: 70%;
    color:var(--preto-100);
 }
 .footer-detalle > ul > .li{
+    padding-left: 40px;
     margin-bottom: 25px;
 }
 .footer-formulario{
+    padding-left: 40px;
     display:flex;
     flex-direction:column;
     align-items:flex-start;
@@ -86,7 +88,17 @@ width: 70%;
 }
  .form-name{
     width: 350px;
-height: 40px;
+height: 25px;
+
+/* Preto/branco */
+
+background: #FFFFFF;
+border-radius: 4px;
+margin-bottom: 25px;
+}
+.form-detalle{
+    width: 350px;
+height: 55px;
 
 /* Preto/branco */
 
@@ -106,7 +118,9 @@ margin-bottom: 25px;
     background: #FFFFFF;
     border-radius: 4px;
     border-color: bisque;
+    border-radius: 15px solid;
  
 }
+
 
 

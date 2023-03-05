@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" />
   <link rel="stylesheet" href="css/base.css">
 
@@ -86,9 +88,11 @@
         </div>
       <div class="card2" id='start'>
           <div class="card-body p-5" >
-            <div>
-              <h1>start</h1>
+            <div class="contenedor-producto-titulo">
+              <h1 class="contenedor-producto-titulop">Star Wars</h1>      
+               <a  class="contenedor-producto-titulolink" href="#">ver todo-></a>
             </div>
+          
             <!-- <div>
               <h1>boton</h1>
             </div> -->
@@ -100,7 +104,10 @@
       </div>  
        <div class="card2" id='todo'>
         <div class="card-body p-5" >
-            <h1>Todo</h1>
+          <div class="contenedor-producto-titulo">
+            <h1 class="contenedor-producto-titulop">Todo</h1>      
+             <a  class="contenedor-producto-titulolink" href="#">ver todo-></a>
+          </div>
             <div class='productoContainer' id='contenedorBusqueda'>
               
                    </div>
@@ -108,7 +115,10 @@
     </div>   
     <div class="card2" id='manga'>
         <div class="card-body p-5" >
-            <h1>Manga</h1>
+          <div class="contenedor-producto-titulo">
+            <h1 class="contenedor-producto-titulop">Manga</h1>      
+             <a  class="contenedor-producto-titulolink" href="#">ver todo-></a>
+          </div>
             <div class='productoContainer' id='contenedorFrutas'>
  
             </div>
@@ -116,7 +126,10 @@
     </div> 
     <div class="card2" id='consola'>
       <div class="card-body p-5" >
-          <h1>Consola</h1>
+        <div class="contenedor-producto-titulo">
+          <h1 class="contenedor-producto-titulop">Consola</h1>      
+           <a  class="contenedor-producto-titulolink" href="#">ver todo-></a>
+        </div>
           <div class='productoContainer' id='contenedorLeche'>
 
           </div>
@@ -214,9 +227,9 @@
         <legend class="rodapePrincipal-contatoForm-legend" for="email-contato">Hable con Nosotros</legend>
         <div class="rodapePrincipal-contatoForm-fieldset"> 
          <div class="form-name">
-          <input class="footer-name" type="text" name="name" id="name-contacto" placeholder="nomre">
+          <input class="footer-name" type="text" name="name" id="name-contacto" placeholder="Nombre">
         </div>
-          <textarea class="form-control" type="text" name="text-area" id="" rows="3"></textarea>
+          <textarea class="form-detalle" type="text" name="text-area" id="" rows="3" placeholder="Escriba tu Mensaje"></textarea>
 
           <button class="rodapePrincipal-contatoForm-submit" type="submit">Enviar</button>
   
