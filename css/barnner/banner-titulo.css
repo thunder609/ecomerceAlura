@@ -34,7 +34,7 @@
   text-shadow: 0.4px rgba(0,0,0,0.75);
   width: 20%;
    transform: translate(-50%,-70%); 
-   background:var(--azul-100);
+   background:var(--preto-05);
    color:var(--preto-05);
     font:var(--preto-05);
     padding-inline-start: 24px;
@@ -47,6 +47,7 @@
     text-align: center;
     display: block;
     border-color: var(--azul-100);
+    
 }
 @media screen  and  (min-width:0){
    .banner-titulo{

@@ -22,7 +22,7 @@ let items = document.getElementById("items");
 // let templateFooter = document.getElementById('template-footer').content
 // let footer = document.getElementById('footer')
 
-const templateCarrito = document.getElementById('template-carrito').content
+// const templateCarrito = document.getElementById('template-carrito').content
 let categorias = document.getElementById("categoria");
 
 let buscador = document.getElementById("buscador");

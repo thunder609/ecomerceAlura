@@ -36,8 +36,8 @@
   
     .productoContainer > .producto {
         background-color: #f1f1f1;
-        width: 90px;
-        margin: 20px 30px 20px 20px;
+        width: 150px;
+        margin: 20px 20px 20px 20px;
         text-align:start;
         line-height: 15px;
        
@@ -50,8 +50,10 @@
       
       }
       .producto  > #imagencard{
-        width: 100px;
-        height: 110px;
+        width: 150px;
+        height: 200px;
+        border-radius: 10px;
+        
       }
      
     @media screen and(min-width: 680px) {

@@ -9,6 +9,7 @@
 @import url(/css/productos/productosContainer.css);
 @import url(/css/menu/item-menu.css);
 @import url(/css/main/main.css); 
+@import url(/css/footer/footer.css);
 :root {
     /* fonts */
     --font-raleway: Raleway;

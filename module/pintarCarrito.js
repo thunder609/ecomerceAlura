@@ -3,7 +3,7 @@ let items = document.getElementById('items')
 const fragment = document.createDocumentFragment()
 const templateCarrito = document.getElementById('template-carrito').content
 
-// let templateFooter = document.getElementById('template-footer').content
+ //let templateFooter = document.getElementById('template-footer').content
 let footer = document.getElementById('footer')
 let carrito={}
 export const setCarrito = obj => {
