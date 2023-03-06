@@ -61,5 +61,20 @@
      font-size: 5.0625rem;
  
     } 
+    .button2{
+      
+        position: absolute;
+     left: 30%;
+      text-align:center;
+      font-size:  var(--font-size-base);
+      top: 70%;
+      text-shadow: 0.4px rgba(0,0,0,0.75);
+      width: 20%;
+     
+        text-align: center;
+        display: block;
+    
+        
+    }
      
  }

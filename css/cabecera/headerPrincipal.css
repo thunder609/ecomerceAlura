@@ -71,7 +71,7 @@ border-radius: 20px;
     display :flex;
 }
 
-/* @media(max-width: 768px) {
+@media(max-width: 768px) {
 
 	.container {
 		width: 85%;	
@@ -83,16 +83,16 @@ border-radius: 20px;
 
 
 	}
-    #logob1{
+    /* #logob1{
 	
         display: none;
 
 
-	}
+	} */
  
 
 	.headerPrincipal-nav-link {
 		border-radius: 5px;
 		border: 1px solid #9799A6;
 	}
-} */
+}

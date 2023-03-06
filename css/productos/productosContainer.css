@@ -119,7 +119,7 @@ color: var(--azul-100);
            .producto{
              display: flexbox;
            flex-wrap: wrap;
-             margin-block-start: 20px;
+            
              margin-inline-end: 20px;
   
          
@@ -134,12 +134,12 @@ color: var(--azul-100);
             font-size: var(--font-size-base);
             align-content: center;         
             width: 15%;
-            margin-left: ;
+          
                  
           
           }
           .producto  > #imagencard{
-            
+            width: 120px;
             height: 180px;
             border-radius: 10px;
             
