@@ -133,14 +133,14 @@ color: var(--azul-100);
             line-height: 15px;           
             font-size: var(--font-size-base);
             align-content: center;         
-            width: 15%;
+            width: 40vw;
           
                  
           
           }
           .producto  > #imagencard{
-            width: 120px;
-            height: 180px;
+            width: 40vw;
+            height: 200px;
             border-radius: 10px;
             
           }

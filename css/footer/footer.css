@@ -8,7 +8,7 @@ align-content: center;
 /* gap: 115px; */
 
 width: 100%;
-height: 300px;
+height: 350px;
 
 /* Azul/10% */
 
@@ -73,7 +73,7 @@ width: 70%;
    color:var(--preto-100);
 }
 .footer-detalle > ul > .li{
-    padding-left: 40px;
+    /* padding-left: 40px; */
     margin-bottom: 25px;
 }
 .footer-formulario{
@@ -150,7 +150,7 @@ margin-bottom: 25px;
 @media screen and (max-width:768px){
     .principal-Footer{
         justify-content: baseline;
-   
+      
     }
  .prueba{
     display: block;
@@ -159,7 +159,7 @@ margin-bottom: 25px;
  .footer-logo{
     display: flex;
 flex-direction: column;
-align-items:flex-start;
+justify-content:space-between;
 
 
 
@@ -230,27 +230,85 @@ margin-bottom: 25px;
    
 }
 @media screen and (max-width:550px){
-    .principal-Footer{
-        display: block;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
+
+    /* .principal-Footer{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+
         
-        /* padding: 65px; */
-        /* gap: 115px; */
+       
+        
+ 
         
         width: 100%;
-        height: 300px;
-        
-        /* Azul/10% */
+    
+      
         
         
         background: #EAF2FD;
         
-        /* Inside auto layout */
+
         
         
         }
+       .footer-detalle {
+            display: block;
+            flex-flow: column nowrap;
+             flex-direction: column;
+             justify-content: center;
+             flex-flow: column nowrap;
+             width: 100%;
+         }
+         .footer-formulario{
+            justify-content: center;
+          
+            flex-flow: column nowrap;
+            width: 100%;
+         }
+  */
+           
+  .principal-Footer{
+    display: flex;
+  display: inline;   
+    width: 100%;        
+    background: #EAF2FD;   
+    
+    } 
+    .prueba{
+        margin-top: 0%;
+    }
+    .footer-logo{
+    display: flex;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  width: 25%;
+    
+
+    
+    
+    /* Inside auto layout */
+    background: #e5e7e9;
+    
+    
+    }
+    .footer-detalle {
+        display: flex;
+
+       
+         justify-content:flex-start;
+      
+         width: 50%;
+     }
+     .footer-formulario{
+        display: flex;
+        flex-wrap:nowrap;
+       
+         justify-content: center;
+      
+         width: 100%;
+     }
+    
 
 }
 
