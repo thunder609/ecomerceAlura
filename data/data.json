@@ -31,7 +31,7 @@
    {
       "id":4,
       "categorie":"consola",
-      "name":"Raqueta ",
+      "name":"ligas",
       "descrip":"           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fugiat porro libero id enim ipsum! Reiciendis, veniam perspiciatis! Odio ut laborum vero veniam id magni perspiciatis eligendi doloremque ea repudiandae?",
      "image":"imagen/consola6.png",
      "precio":10000
@@ -93,7 +93,7 @@
 {
 "id":12,
 "categorie":"consola",
-"name":"Bumblebeee",
+"name":"ligas",
 "descrip":"El ejercito de la patrulla roja Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit fugiat porro libero id enim ipsum! Reiciendis, veniam perspiciatis! Odio ut laborum vero veniam id magni perspiciatis eligendi doloremque ea repudiandae?",
 "image":"imagen/consola6",
 "precio":43000

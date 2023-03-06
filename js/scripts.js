@@ -9,7 +9,7 @@ let starCon=document.getElementById('contenedorStar')
 let conBus=document.getElementById('contenedorBusqueda')
 contenedorBusqueda
 
-let frutas = document.getElementById('manga');
+let manga = document.getElementById('manga');
 let leche = document.getElementById('consola');
  let todito = document.getElementById('todo');
 let startw=document.getElementById('start');
@@ -83,29 +83,29 @@ categorias.addEventListener('change', (e) => {
     console.log("hola")
     console.log(prueba), prueba
     if (prueba === '0') {
-        todito.style.display  ="none"
+        todo.style.display  ="none"
         startw.style.display = 'block'
-        frutas.style.display = 'bock'
+        manga.style.display = 'bock'
         leche.style.display = 'block'
     
        
     }
     else if (prueba === '2') {
         startw.style.display = 'none'
-         frutas.style.display = 'block'
-        leche.style.display = 'none'
+        manga.style.display = 'block'
+       consola.style.display = 'none'
         todo.style.display = 'none'
     
        
     } else if (prueba === '3') {
         startw.style.display = 'none'
-         frutas.style.display = 'none'
+         manga.style.display = 'none'
         leche.style.display = 'block'
         todo.style.display = 'none'
     }
         else if (prueba === '4') {
             startw.style.display = 'block'
-           frutas.style.display = 'none'
+           manga.style.display = 'none'
           leche.style.display = 'none'
           todo.style.display = 'none'
          
@@ -169,13 +169,17 @@ buscador.addEventListener("keyup", async (e) => {
   console.log("ingreso" + ingreso);
   let er = new RegExp(ingreso, "i");
   // console.log("errr" + er);
-   resBuscador = data.filter((item) => er.test(item.name));
+    resBuscador = data.filter((item) => er.test(item.name));
+    //let startWars = data.filter((item) => er.test(item.name));
     console.log(resBuscador) 
-    pintarProduct(resBuscador,conBus);
+     pintarProduct(resBuscador,conBus);
+  
      todito.style.display  ="block"
      startw.style.display = 'none'
-     frutas.style.display = 'none'
+     manga.style.display = 'none'
      leche.style.display = 'none'
+  
+   
 
 
     

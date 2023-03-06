@@ -32,7 +32,7 @@
 }
 
 #buscar {
-    display:none;
+    display:flex;
     align-items: center;
 padding: 8px 16px;
 gap: 8px;
@@ -49,13 +49,16 @@ border-radius: 20px;
 
 
 
-flex-grow: 0;
+
 }
 #logobuscar1 {
 	
     display: none;
 
 
+}
+#logob1{
+    display:none;
 }
 
 
@@ -68,7 +71,7 @@ flex-grow: 0;
     display :flex;
 }
 
-@media(min-width: 768px) {
+/* @media(max-width: 768px) {
 
 	.container {
 		width: 85%;	
@@ -92,4 +95,4 @@ flex-grow: 0;
 		border-radius: 5px;
 		border: 1px solid #9799A6;
 	}
-}
+} */

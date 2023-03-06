@@ -11,7 +11,8 @@
      text-decoration: none;
      text-align: center;
      display: block;
-
+     width: 142px;
+     height: 41px;
  
      border-color: var(--azul-100);
 
@@ -20,3 +21,8 @@
      
 
 }
+
+
+/* Azul/100% */
+
+
